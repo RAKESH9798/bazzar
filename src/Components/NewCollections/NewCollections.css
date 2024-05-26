@@ -1,0 +1,52 @@
+/* NewCollections.css */
+:root {
+    --primary-color: #171717;
+    --secondary-color: #0f0f0f70;
+    --text-color: #374151;
+    --sub-text-color: #8c8c8c;
+  }
+  
+  .new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .new-collections h1 {
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .new-collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: var(--secondary-color);
+  }
+  
+  .collections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  @media (max-width:780px){
+    .collections{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 780px) and (max-width: 1280px) {
+    .collections {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }
+}
+
+  

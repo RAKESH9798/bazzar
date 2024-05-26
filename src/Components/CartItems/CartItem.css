@@ -1,0 +1,137 @@
+.cartitem {
+    margin: 100px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.cartitem hr {
+    height: 2px;
+    background: #e2e2e2;
+    border: none;
+    margin: 20px 0;
+}
+
+.cartitem-format-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitem-format {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cartitem-product-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.cart-icon-remove-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.cartitem-quantity {
+    width: 44px;
+    height: 30px;
+    border: 2px;
+    background-color: #f0f0f0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+/* cartitem down page css */
+
+.cartitem-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.cartitem-total {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cartitem-total h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+.cartitem-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cartitem-total-item p {
+    font-size: 18px;
+    color: #454545;
+}
+
+.cartitem-total button {
+    width: 202px;
+    height: 52px;
+    outline: none;
+    border: none;
+    background-color: #ff5a5a;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cartitem-promocode {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cartitem-promocode p {
+    font-size: 18px;
+    color: #454545;
+    margin-bottom: 10px;
+}
+
+.cartitem-promobox {
+    display: flex;
+}
+
+.cartitem-promobox input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cartitem-promobox button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cartitem-promobox button:hover {
+    background-color: #0056b3;
+}

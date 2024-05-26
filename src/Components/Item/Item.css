@@ -1,0 +1,41 @@
+/* Item.css */
+.item {
+    width: 250px;
+    padding: 10px;
+    transition: transform 0.6s;
+  }
+  
+  .item p {
+    margin: 6px 0px;
+  }
+  
+  .item img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .item-prices {
+    display: flex;
+    justify-content: space-between; /* Distribute prices evenly */
+  }
+  
+  .new-item-price {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .old-item-price {
+    color: var(--sub-text-color);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+
+  
+
+  
